@@ -1,0 +1,23 @@
+/* font-family: 'Lugrasimo', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Mono', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+body {
+  background: rebeccapurple;
+  padding: 25px;
+}
+
+h1 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-family: "Poppins", serif;
+  font-weight: normal;
+}
