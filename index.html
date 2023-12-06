@@ -13,7 +13,6 @@
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="src/portfolio.css" />
-    <link rel="stylesheet" href="
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,8 +25,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <div class="container">
+      <!--navigation menu-->
       <nav class="d-flex justify-content-between">
         <img src="images/LogoQuings-09.png" class="logo" alt="Sonique's Logo" />
         <ul>
@@ -46,10 +47,6 @@
           <li>
             <a href="/contact.html" title="Contact Sonique">Contact Me</a>
           </li>
-
-          <li>
-            <a href="https://uxfol.io/1d175a61" target="_blank">Ux/UI Design</a>
-          </li>
         </ul>
       </nav>
     </div>
@@ -66,28 +63,59 @@
     </div>
     <p class="text-center mb-5">Shown below are my best projects thus far</p>
 
-    <!--pendragon picture-->
+    <!--ai poem project-->
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">AI Poem Generator</h2>
+            <p class="poemgenerator mb-5 text-muted">
+              Type in one word and a short poem will be created for you.
+            </p>
+            <a
+              href="https://sm-poem-generator.netlify.app"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <!--ai poem generator picture -->
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/poemgenerator.png"
+            class="img-fluid"
+            alt="poemgenerator"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--vocab dictionary picture-->
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="images/pendragon.jpg"
+            src="images/vocabdictionary.png"
             class="img-fluid"
             alt="fav book preview"
           />
         </div>
 
-        <!--pendragon project-->
+        <!--vocab dicionary project-->
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Fav Book: Pendragon</h2>
+            <h2 class="mb-5">Vocab. Dictionary</h2>
             <p class="Pendragon mb-5 text-muted">
-              D.J. MacHale's New York Times bestselling middle grade fantasy
-              series about Bobby Pendragon, a regular kid about to find himself
-              and his two friends pulled into one epic adventure across worlds!
+              Search a word and the pronunciation, noun, adjective, and/or verb
+              will load.
             </p>
-            <a href="/projects.html" class="btn btn-branding-outline"
-              >Learn More</a
+            <a
+              href="https://sm-vocab-dictionary.netlify.app"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >View Project</a
             >
           </div>
         </div>
@@ -100,13 +128,15 @@
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">Weather App Project</h2>
-            <p class="Pendragon mb-5 text-muted">
-              D.J. MacHale's New York Times bestselling middle grade fantasy
-              series about Bobby Pendragon, a regular kid about to find himself
-              and his two friends pulled into one epic adventure across worlds!
+            <p class="WeatherApp mb-5 text-muted">
+              Search a city and the current temperature featuring the high and
+              low temperature's as well for the next 5 days.
             </p>
-            <a href="/projects.html" class="btn btn-branding-outline"
-              >Learn More</a
+            <a
+              href="https://sm-weather-forecast.netlify.app"
+              target="_blank"
+              class="btn btn-branding-outline"
+              >View Project</a
             >
           </div>
         </div>
@@ -138,12 +168,10 @@
           <div class="project-description">
             <h2 class="mb-5">World Clock Project</h2>
             <p class="Pendragon mb-5 text-muted">
-              D.J. MacHale's New York Times bestselling middle grade fantasy
-              series about Bobby Pendragon, a regular kid about to find himself
-              and his two friends pulled into one epic adventure across worlds!
+              Search a city and the current time in the world will populate.
             </p>
             <a href="/projects.html" class="btn btn-branding-outline"
-              >Learn More</a
+              >View Project</a
             >
           </div>
         </div>
