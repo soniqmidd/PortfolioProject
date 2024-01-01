@@ -168,14 +168,18 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.portfolios h2 {
+.portfolios h2,
+.socials h2,
+.resume h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 2;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.portfolios li {
+.portfolios li,
+.socials li,
+.resume li {
   display: inline;
   list-style: none;
   line-height: 42px;
