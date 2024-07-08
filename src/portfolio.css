@@ -62,6 +62,10 @@ img {
   line-height: 30px;
 }
 
+.about-me {
+  background: var(--secondary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
