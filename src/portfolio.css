@@ -11,6 +11,7 @@ font-family: 'Satisfy', cursive; */
   --default-frampic-background-color: #bebbf5;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --default-background-color: #f4f7f8;
 }
 
 body {
